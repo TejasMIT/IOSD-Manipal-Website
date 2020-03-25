@@ -1,0 +1,90 @@
+#nav1
+{
+    background-image: url("images/pitchblack.png");
+    height: 80px !important;
+}
+#fixx
+{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+}
+#rell
+{
+    position: relative;
+}
+#iosd
+{
+    background-image: url(images/index.gif);
+    background-size: cover;
+   
+    background-position: center center;
+    background-attachment: fixed;
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+h1
+{
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 5px;
+}
+h3
+{
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 2px;
+}
+h2
+{
+    font-family: 'Tomorrow', sans-serif;
+    letter-spacing: 4px;
+}
+#social
+{
+    text-align: center;
+}
+#nav2
+{
+    background-image: url("images/pitchblack.png");
+    height: 60px !important;
+}
+h4
+{
+    font-family: 'Tomorrow', sans-serif;
+    letter-spacing: 2px;
+}
+#und 
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+#und:after 
+{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+#und:hover:after 
+{ 
+    width: 100%; 
+    left: 0; 
+}
+@media screen and (max-height: 300px) 
+{
+    ul
+    {
+        margin-top: 40px;
+    }
+}

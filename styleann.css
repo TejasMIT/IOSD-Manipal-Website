@@ -1,0 +1,105 @@
+h1
+{
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 5px;
+}
+#fixx
+{
+    position:fixed;
+    width:100%;
+}
+#nav2
+{
+    background-image: url("images/pitchblack.png");
+    height: 60px !important;
+}
+h4
+{
+    font-family: 'Tomorrow', sans-serif;
+    letter-spacing: 2px;
+}
+#thin
+{
+    display: block; 
+    margin: 10px; 
+}
+#herro
+{
+    background-image: url("images/pitchblack.png");
+    position:fixed;
+    width:100%;
+}
+#giff
+{
+    background-image: url('images/announcements.gif');
+    background-size: repeat;
+    
+    opacity: 1;
+    height: 100%;
+    padding:0px;
+    margin:0;
+}
+#und 
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+#und:after 
+{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+#und:hover:after 
+{ 
+    width: 100%; 
+    left: 0; 
+}
+@media screen and (max-height: 300px) 
+{
+    ul
+    {
+        margin-top: 40px;
+    }
+}
+div
+{
+    font-family: 'Tomorrow', sans-serif;
+    padding: 20px;
+}
+#blink
+{
+    -webkit-animation: flicker 2s infinite;
+}
+  
+@-webkit-keyframes flicker
+{
+    0% {opacity:0;}
+    9% {opacity:0;}
+    10% {opacity:.5;}
+    13% {opacity:0;}
+    20% {opacity:.5;}
+    25% {opacity:1;}
+}
+
+#post
+{
+    font-family: 'Tomorrow', sans-serif;
+}
+#go-top 
+{
+    right:1em;
+    bottom:2em;
+    text-decoration:none;
+    padding:5px;
+    position:fixed;
+  }
